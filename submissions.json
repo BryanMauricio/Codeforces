@@ -923,6 +923,23 @@
     ],
     "timestamp": "Dec/31/2020 06:08"
   },
+  "CF89654303": {
+    "contest_id": 47,
+    "language": "Python 3",
+    "path": "codeforces\\47\\A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Triangular numbers",
+    "problem_url": "https://codeforces.com/contest/47/problem/A",
+    "submission_id": "CF89654303",
+    "submission_url": "https://codeforces.com/contest/47/submission/89654303",
+    "tags": [
+      "brute force",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Aug/12/2020 02:25"
+  },
   "CF89678062": {
     "contest_id": 479,
     "language": "Python 3",
