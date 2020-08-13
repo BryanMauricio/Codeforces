@@ -923,6 +923,22 @@
     ],
     "timestamp": "Dec/31/2020 06:08"
   },
+  "CF89819065": {
+    "contest_id": 835,
+    "language": "Python 3",
+    "path": "codeforces\\835\\A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Key races",
+    "problem_url": "https://codeforces.com/contest/835/problem/A",
+    "submission_id": "CF89819065",
+    "submission_url": "https://codeforces.com/contest/835/submission/89819065",
+    "tags": [
+      "math",
+      "*800"
+    ],
+    "timestamp": "Aug/13/2020 06:58"
+  },
   "CF89832251": {
     "contest_id": 987,
     "language": "Python 3",
