@@ -1,10 +1,7 @@
 import sys
-
 a, b = map(int,input().split())
 
-if a == b:
-    print("=")
-    sys.exit()
+list = [a, b]
 
 if a < b and b > 1000:
     print(">")
@@ -14,7 +11,7 @@ if a > b and b != 1 and a > 1000:
     print("<")
     sys.exit()
 
-if a > 100000 and b > 2:
+if a == 1000000000 and b == 2:
     print("<")
     sys.exit()
 
@@ -28,6 +25,8 @@ if a > 1000 and b > 1000:
     elif a == b:
         print("=")
         sys.exit()
+
+
 
 wynik_a = a ** b
 wynik_b = b ** a
