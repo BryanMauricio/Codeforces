@@ -923,6 +923,22 @@
     ],
     "timestamp": "Dec/31/2020 06:08"
   },
+  "CF90041242": {
+    "contest_id": 1030,
+    "language": "Python 3",
+    "path": "codeforces\\1030\\A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "In Search of an Easy Problem",
+    "problem_url": "https://codeforces.com/contest/1030/problem/A",
+    "submission_id": "CF90041242",
+    "submission_url": "https://codeforces.com/contest/1030/submission/90041242",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Aug/15/2020 07:43"
+  },
   "CF90044703": {
     "contest_id": 472,
     "language": "Python 3",
