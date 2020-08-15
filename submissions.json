@@ -923,6 +923,23 @@
     ],
     "timestamp": "Dec/31/2020 06:08"
   },
+  "CF90040625": {
+    "contest_id": 734,
+    "language": "Python 3",
+    "path": "codeforces\\734\\A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Anton and Danik",
+    "problem_url": "https://codeforces.com/contest/734/problem/A",
+    "submission_id": "CF90040625",
+    "submission_url": "https://codeforces.com/contest/734/submission/90040625",
+    "tags": [
+      "implementation",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Aug/15/2020 07:29"
+  },
   "CF90041242": {
     "contest_id": 1030,
     "language": "Python 3",
