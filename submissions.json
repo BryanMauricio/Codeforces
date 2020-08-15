@@ -923,6 +923,23 @@
     ],
     "timestamp": "Dec/31/2020 06:08"
   },
+  "CF90033914": {
+    "contest_id": 281,
+    "language": "Python 3",
+    "path": "codeforces\\281\\A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Word Capitalization",
+    "problem_url": "https://codeforces.com/contest/281/problem/A",
+    "submission_id": "CF90033914",
+    "submission_url": "https://codeforces.com/contest/281/submission/90033914",
+    "tags": [
+      "implementation",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Aug/15/2020 05:22"
+  },
   "CF90034893": {
     "contest_id": 50,
     "language": "Python 3",
