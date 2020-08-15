@@ -923,6 +923,22 @@
     ],
     "timestamp": "Dec/31/2020 06:08"
   },
+  "CF90045490": {
+    "contest_id": 1186,
+    "language": "Python 3",
+    "path": "codeforces\\1186\\A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Vus the Cossack and a Contest",
+    "problem_url": "https://codeforces.com/contest/1186/problem/A",
+    "submission_id": "CF90045490",
+    "submission_url": "https://codeforces.com/contest/1186/submission/90045490",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Aug/15/2020 09:35"
+  },
   "CF90050127": {
     "contest_id": 1230,
     "language": "Python 3",
