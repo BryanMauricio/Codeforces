@@ -1,20 +1,13 @@
-# CodeForces A. Word 59A - 5
-# Bryan Mauricio
+import re
 
-x = input()
-small = 0
-biggs = 0
+string = input()
+big_letters = len(re.findall(r'[A-Z]',string))
+w = len(string)
+small_letters = w - big_letters
 
-
-for y in x:
-    if y.isupper():
-        biggs += 1
-for y in x:
-    if y.islower():
-        small += 1
-if small > biggs:
-    print(x.lower())
-elif biggs > small:
-    print(x.upper())
-elif biggs == small:
-    print(x.lower())
+if big_letters > small_letters:
+    print(string.upper())
+elif small_letters > big_letters:
+    print(string.lower())
+elif big_letters == small_letters:
+    print(string.lower())
