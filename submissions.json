@@ -923,6 +923,23 @@
     ],
     "timestamp": "Dec/31/2020 06:08"
   },
+  "CF90050127": {
+    "contest_id": 1230,
+    "language": "Python 3",
+    "path": "codeforces\\1230\\A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Dawid and Bags of Candies",
+    "problem_url": "https://codeforces.com/contest/1230/problem/A",
+    "submission_id": "CF90050127",
+    "submission_url": "https://codeforces.com/contest/1230/submission/90050127",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Aug/15/2020 13:31"
+  },
   "CF90172190": {
     "contest_id": 1180,
     "language": "Python 3",
