@@ -923,6 +923,22 @@
     ],
     "timestamp": "Dec/31/2020 06:08"
   },
+  "CF90177977": {
+    "contest_id": 1047,
+    "language": "Python 3",
+    "path": "codeforces\\1047\\A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Little C Loves 3 I",
+    "problem_url": "https://codeforces.com/contest/1047/problem/A",
+    "submission_id": "CF90177977",
+    "submission_url": "https://codeforces.com/contest/1047/submission/90177977",
+    "tags": [
+      "math",
+      "*800"
+    ],
+    "timestamp": "Aug/16/2020 10:17"
+  },
   "CF90223674": {
     "contest_id": 898,
     "language": "Python 3",
