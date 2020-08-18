@@ -923,6 +923,23 @@
     ],
     "timestamp": "Dec/31/2020 06:08"
   },
+  "CF90345255": {
+    "contest_id": 200,
+    "language": "PyPy 3",
+    "path": "codeforces\\200\\B.py",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Drinks",
+    "problem_url": "https://codeforces.com/contest/200/problem/B",
+    "submission_id": "CF90345255",
+    "submission_url": "https://codeforces.com/contest/200/submission/90345255",
+    "tags": [
+      "implementation",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Aug/18/2020 10:30"
+  },
   "CF90388422": {
     "contest_id": 146,
     "language": "PyPy 3",
