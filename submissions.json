@@ -923,6 +923,22 @@
     ],
     "timestamp": "Dec/31/2020 06:08"
   },
+  "CF90388422": {
+    "contest_id": 146,
+    "language": "PyPy 3",
+    "path": "codeforces\\146\\A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Lucky Ticket",
+    "problem_url": "https://codeforces.com/contest/146/problem/A",
+    "submission_id": "CF90388422",
+    "submission_url": "https://codeforces.com/contest/146/submission/90388422",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Aug/19/2020 01:38"
+  },
   "CF90390856": {
     "contest_id": 1281,
     "language": "PyPy 3",
