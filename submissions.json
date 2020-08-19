@@ -923,6 +923,22 @@
     ],
     "timestamp": "Dec/31/2020 06:08"
   },
+  "CF90390856": {
+    "contest_id": 1281,
+    "language": "PyPy 3",
+    "path": "codeforces\\1281\\A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Suffix Three",
+    "problem_url": "https://codeforces.com/contest/1281/problem/A",
+    "submission_id": "CF90390856",
+    "submission_url": "https://codeforces.com/contest/1281/submission/90390856",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Aug/19/2020 02:11"
+  },
   "CF90394460": {
     "contest_id": 420,
     "language": "PyPy 3",
