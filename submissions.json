@@ -923,6 +923,23 @@
     ],
     "timestamp": "Dec/31/2020 06:08"
   },
+  "CF90783965": {
+    "contest_id": 520,
+    "language": "PyPy 3",
+    "path": "codeforces\\520\\A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Pangram",
+    "problem_url": "https://codeforces.com/contest/520/problem/A",
+    "submission_id": "CF90783965",
+    "submission_url": "https://codeforces.com/contest/520/submission/90783965",
+    "tags": [
+      "implementation",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Aug/23/2020 09:45"
+  },
   "CF90784667": {
     "contest_id": 236,
     "language": "PyPy 3",
