@@ -1,41 +1,38 @@
-#include <iostream>
+#include<bits/stdc++.h>
+#include<iostream>
+#include<cstring>
+#include<iomanip>
+#include<fstream>
 
 using namespace std;
-typedef long long ll;
 
 int main()
+
 {
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-    cout.tie(0);
-
-    int t, cnt=0;
-    cin >> t;
-    while(t--) {
-        string s;
+    int x;
+    int cnt = 0;
+    string s;
+    cin >> x;
+    for(int i=0; i<x; i++)
+    {
         cin >> s;
-        if(s[0] == 'T') {
-            cnt += 4;
-        }
-        else if(s[0] == 'C') {
+        if(s == "Cube")
             cnt += 6;
-        }
-        else if(s[0] == 'I') {
+        if(s == "Icosahedron")
             cnt += 20;
-        }
-        else if(s[0] == 'D') {
+        if(s == "Dodecahedron")
             cnt += 12;
-        }
-        else if(s[0] == 'O') {
+        if(s == "Octahedron")
             cnt += 8;
-        }
-
-
+        if(s == "Tetrahedron")
+            cnt += 4;
+            
+            
+            
+            
+            
+            
 
     }
-    cout << cnt;
-
-
-
-
+cout << cnt;
 }
