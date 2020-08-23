@@ -24,6 +24,7 @@ int main()
             cnt += 12;
         if(s == "Octahedron")
             cnt += 8;
+            
         if(s == "Tetrahedron")
             cnt += 4;
             
