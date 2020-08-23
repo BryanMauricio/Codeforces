@@ -20,10 +20,13 @@ int main()
             cnt += 6;
         if(s == "Icosahedron")
             cnt += 20;
+
         if(s == "Dodecahedron")
             cnt += 12;
+
         if(s == "Octahedron")
             cnt += 8;
+
         if(s == "Tetrahedron")
             cnt += 4;
 
