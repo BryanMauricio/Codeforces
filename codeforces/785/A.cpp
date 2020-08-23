@@ -27,11 +27,6 @@ int main()
         if(s == "Tetrahedron")
             cnt += 4;
             
-            
-            
-            
-            
-            
 
     }
 cout << cnt;
