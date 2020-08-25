@@ -923,6 +923,22 @@
     ],
     "timestamp": "Dec/31/2020 06:08"
   },
+  "CF90902915": {
+    "contest_id": 1030,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\1030\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "In Search of an Easy Problem",
+    "problem_url": "https://codeforces.com/contest/1030/problem/A",
+    "submission_id": "CF90902915",
+    "submission_url": "https://codeforces.com/contest/1030/submission/90902915",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Aug/25/2020 02:25"
+  },
   "CF90992682": {
     "contest_id": 749,
     "language": "PyPy 3",
