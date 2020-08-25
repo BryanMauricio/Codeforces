@@ -923,6 +923,25 @@
     ],
     "timestamp": "Dec/31/2020 06:08"
   },
+  "CF91003241": {
+    "contest_id": 749,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\749\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Bachgold Problem",
+    "problem_url": "https://codeforces.com/contest/749/problem/A",
+    "submission_id": "CF91003241",
+    "submission_url": "https://codeforces.com/contest/749/submission/91003241",
+    "tags": [
+      "greedy",
+      "implementation",
+      "math",
+      "number theory",
+      "*800"
+    ],
+    "timestamp": "Aug/25/2020 10:07"
+  },
   "CF91051713": {
     "contest_id": 266,
     "language": "GNU C++17 (64)",
