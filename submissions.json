@@ -923,6 +923,23 @@
     ],
     "timestamp": "Dec/31/2020 06:08"
   },
+  "CF91247709": {
+    "contest_id": 118,
+    "language": "PyPy 3",
+    "path": "codeforces\\118\\A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "String Task",
+    "problem_url": "https://codeforces.com/contest/118/problem/A",
+    "submission_id": "CF91247709",
+    "submission_url": "https://codeforces.com/contest/118/submission/91247709",
+    "tags": [
+      "implementation",
+      "strings",
+      "*1000"
+    ],
+    "timestamp": "Aug/28/2020 12:18"
+  },
   "CF91248564": {
     "contest_id": 96,
     "language": "GNU C++17 (64)",
