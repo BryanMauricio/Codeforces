@@ -5,12 +5,12 @@ using namespace std;
 int main()
 {
 
-    int t,sum=0,o[10000];
+    int t,sum=0,o[100000];
     cin >> t;
     while(t--) {
         int x;
         cin >> x;
-        for(int i =0;i<x;i++){
+        for(int i = 0;i<x;i++){
             cin >> o[i];
             sum += o[i];
         }
@@ -21,8 +21,5 @@ int main()
             cout << sum / x + 1 << endl;
         }
         sum = 0;
-
-
     }
-
 }
