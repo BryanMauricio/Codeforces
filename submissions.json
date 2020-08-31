@@ -923,6 +923,23 @@
     ],
     "timestamp": "Dec/31/2020 06:08"
   },
+  "CF91503175": {
+    "contest_id": 411,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\411\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Password Check",
+    "problem_url": "https://codeforces.com/contest/411/problem/A",
+    "submission_id": "CF91503175",
+    "submission_url": "https://codeforces.com/contest/411/submission/91503175",
+    "tags": [
+      "*special problem",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Aug/31/2020 04:10"
+  },
   "CF91506442": {
     "contest_id": 1234,
     "language": "GNU C++17 (64)",
