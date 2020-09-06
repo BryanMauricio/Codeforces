@@ -19,11 +19,11 @@ int main()
         cout << -1;
         return 0;
     }
-    else if(b == 0 && x[0] != 1) {
+    if(b == 0 && x[0] != 1) {
         cout << x[0] - 1;
         return 0;
     }
-    else if(x[b - 1] == x[b]) {
+    if(x[b - 1] == x[b]) {
         cout << -1;
         return 0;
     }
