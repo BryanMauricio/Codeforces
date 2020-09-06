@@ -923,6 +923,26 @@
     ],
     "timestamp": "Dec/31/2020 06:08"
   },
+  "CF92022989": {
+    "contest_id": 550,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\550\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Two Substrings",
+    "problem_url": "https://codeforces.com/contest/550/problem/A",
+    "submission_id": "CF92022989",
+    "submission_url": "https://codeforces.com/contest/550/submission/92022989",
+    "tags": [
+      "brute force",
+      "dp",
+      "greedy",
+      "implementation",
+      "strings",
+      "*1500"
+    ],
+    "timestamp": "Sep/06/2020 03:35"
+  },
   "CF92076644": {
     "contest_id": 884,
     "language": "GNU C++17 (64)",
