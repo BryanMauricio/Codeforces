@@ -15,5 +15,11 @@ int main() {
         ans += b - a;
         y.push_back(ans);
     }
+    int maxi = y[0];
+    for(int i = 0;i<t;i++) {
+        if(y[i] > maxi) {
+            maxi = y[i];
+        }
+    }
     cout << *max_element(y.begin(), y.end() + t);
 }
