@@ -1,8 +1,6 @@
 #include <bits/stdc++.h>
-#define pb push_back
-#define S string
+
 #define ll long long
-#define vt vector
 
 using namespace std;
 
@@ -10,12 +8,12 @@ int main() {
 
     ll t,ans=0;
     cin >> t;
-    vt<int> y;
+    vector<int> y;
     while(t--) {
-        ll a,b;
+        int a,b;
         cin >> a >> b;
         ans += b - a;
-        y.pb(ans);
+        y.push_back(ans);
     }
     cout << *max_element(y.begin(), y.end() + t);
 }
