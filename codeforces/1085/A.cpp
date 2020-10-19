@@ -204,16 +204,11 @@ int main() {
  
   ios;
  
-  string s;
-	read(s);
-	int n = s.size();
-	string x = "";
-	int g = 1;
-	for(int i = n % 2 == 0 ? n / 2 - 1 : n/2;i>=0;i--) {
-		x+=s[i];
-		if(i + g < n) {
-			x+=s[i + g];
-			g+=2;
-		}
-	}
-	print(x);}
+  int t = 1, i=1;
+  //read(t);
+  while(t--) {
+       // write("Case #", i, ": ");
+    solve();
+    i++;
+  }
+}
