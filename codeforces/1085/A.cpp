@@ -189,16 +189,28 @@ void solve() {
 	string s;
 	read(s);
 	int n = s.size();
-	string x = "";
-	int g = 1;
-	for(int i = n % 2 == 0 ? n / 2 - 1 : n/2;i>=0;i--) {
-		x+=s[i];
-		if(i + g < n) {
+	if(n % 2 == 0) {
+		string x = "";
+		int g = 1;
+		for(int i = (n / 2) - 1;i>=0;i--) {
+			x+=s[i];
 			x+=s[i + g];
 			g+=2;
 		}
+		print(x);
 	}
-	print(x);		
+	else {
+		string x = "";
+		int g = 1;
+		for(int i = n / 2;i>=0;i--) {
+			x+=s[i];
+			if(i + g < n) {
+				x+=s[i + g];
+				g+=2;
+			}	
+		}
+		print(x);
+	}	
 }                    
 int main() {
  
