@@ -923,6 +923,23 @@
     ],
     "timestamp": "Dec/31/2020 06:08"
   },
+  "CF96475983": {
+    "contest_id": 831,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\831\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Keyboard Layouts",
+    "problem_url": "https://codeforces.com/contest/831/problem/B",
+    "submission_id": "CF96475983",
+    "submission_url": "https://codeforces.com/contest/831/submission/96475983",
+    "tags": [
+      "implementation",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Oct/23/2020 07:54"
+  },
   "CF96476309": {
     "contest_id": 831,
     "language": "GNU C++17 (64)",

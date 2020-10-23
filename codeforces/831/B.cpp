@@ -219,7 +219,7 @@ void solve() {
 	}
 	EACH(t, ans) {
 		write(t);
-	} 	
+	} 		
 }		
           
 int main() {
@@ -232,5 +232,6 @@ int main() {
        // write("Case #", i + 1, ": ");
     solve();
   }
+  print("");
   time_taken();
 }
