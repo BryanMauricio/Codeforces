@@ -241,7 +241,7 @@ void Time_taken()
 void Solve() {
 	int n;
 	read(n);
-	unordered_map<string, int> y;
+	map<string, int> y;
 	while(n--) {
 		string s;
 		cin >> s;
