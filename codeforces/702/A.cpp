@@ -87,7 +87,7 @@ template<class A, size_t S> void read(array<A, S>& x) {
   EACH(a, x)
     read(a);
 }
- 
+
 template<typename T> inline T max(const T& a, const T& b, const T& c) { return std::max(std::max(a, b), c); }
 template<typename T> inline T max(const T& a, const T& b, const T& c, const T& d) { return std::max(max(a, b, c), d); }
 template<typename T> inline T max(const T& a, const T& b, const T& c, const T& d, const T& e) { return std::max(max(a, b, c, d), e); }
@@ -104,7 +104,7 @@ template<typename T> inline T min(const T& a, const T& b, const T& c, const T& d
 template<typename T> inline T min(const T& a, const T& b, const T& c, const T& d, const T& e, const T& f, const T& g, const T& h) { return std::min(min(a, b, c, d, e, f, g), h); }
 template<typename T> inline T min(const T& a, const T& b, const T& c, const T& d, const T& e, const T& f, const T& g, const T& h, const T& i) { return std::min(min(a, b, c, d, e, f, g, h), i); }
 template<typename T> inline T min(const T& a, const T& b, const T& c, const T& d, const T& e, const T& f, const T& g, const T& h, const T& i, const T& j) { return std::min(min(a, b, c, d, e, f, g, h, i), j); }
- 
+
 int sumof(ll n) {
 	int ans = 0;
 	while(n > 0) {
@@ -229,15 +229,15 @@ template<class T, class U> void vti(vt<T> &v, U x, size_t n, size_t m...) {
  
 const int d4i[4]={-1, 0, 1, 0}, d4j[4]={0, 1, 0, -1};
 const int d8i[8]={-1, -1, 0, 1, 1, 1, 0, -1}, d8j[8]={0, 1, 1, 1, 0, -1, -1, -1}; 
- 
+
 clock_t time_p = clock();
- 
+
 void Time_taken()
 {
   time_p = clock() - time_p;
   cerr << "Time Taken : " << (float)(time_p) / CLOCKS_PER_SEC << "\n";
 }
- 
+
 void Solve() { 
 	int n;
 	cin >> n;
