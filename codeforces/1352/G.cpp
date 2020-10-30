@@ -265,7 +265,10 @@ void Solve() {
 			write(i, " ");
 		}
 	}
-	print(" ");					
+	print(" ");	
+		
+		
+				
 }
        
 int main() {
