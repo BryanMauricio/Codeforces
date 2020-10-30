@@ -240,32 +240,32 @@ void Time_taken()
 
 void Solve() { 
 	int n;
-  cin >> n;
-  if(n <= 3) {
-    print(-1);
-  }
-  else if(n % 2 == 0) {
-    for(int i = 2;i<=n;i+=2) {
-      write(i, " ");
-    }
-    write(n - 3, " ");
-    write(n - 3 + 2, " ");
-    for(int i = n-3+2-4;i>=1;i-=2) {
-      write(i, " ");
-    }
-  }
-  else {
-    for(int i = 2;i<=n;i+=2) {
-      write(i, " ");
-    }
-    write(n - 1 - 3, " ");
-    write(n - 1 - 3 + 4,  " ");
-    write(n - 1 - 3 + 4 - 2, " ");
-    for(int i = n - 1 - 3 + 4 - 2 - 4;i>=1;i-=2) {
-      write(i, " ");
-    }
-  }
-  print(" ");			
+	cin >> n;
+	if(n <= 3) {
+		print(-1);
+	}
+	else if(n % 2 == 0) {
+		for(int i = 2;i<=n;i+=2) {
+			write(i, " ");
+		}
+		write(n - 3, " ");
+		write(n - 3 + 2, " ");
+		for(int i = n-3+2-4;i>=1;i-=2) {
+			write(i, " ");
+		}
+	}
+	else {
+		for(int i = 2;i<=n;i+=2) {
+			write(i, " ");
+		}
+		write(n - 1 - 3, " ");
+		write(n - 1 - 3 + 4,  " ");
+		write(n - 1 - 3 + 4 - 2, " ");
+		for(int i = n - 1 - 3 + 4 - 2 - 4;i>=1;i-=2) {
+			write(i, " ");
+		}
+	}
+	print(" ");					
 }
        
 int main() {
