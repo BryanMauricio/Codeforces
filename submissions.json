@@ -923,6 +923,23 @@
     ],
     "timestamp": "Dec/31/2020 06:08"
   },
+  "CF97379673": {
+    "contest_id": 485,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\485\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Maximum Value",
+    "problem_url": "https://codeforces.com/contest/485/problem/D",
+    "submission_id": "CF97379673",
+    "submission_url": "https://codeforces.com/contest/485/submission/97379673",
+    "tags": [
+      "binary search",
+      "sortings",
+      "*2100"
+    ],
+    "timestamp": "Nov/01/2020 07:31"
+  },
   "CF97384143": {
     "contest_id": 129,
     "language": "GNU C++17 (64)",
