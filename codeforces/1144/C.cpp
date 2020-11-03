@@ -26,7 +26,6 @@ using namespace std;
 #define srtr(y) sort(allr(y))
 #define uniq(y) y.erase(unique(all(y)), y.end())
 #define eras(y, k) y.erase(y.begin() + k)
-#define mp make_pair
  
 #define F_OR(i, a, b, s) for (int i=(a); (s)>0?i<(b):i>(b); i+=(s))
 #define F_OR1(e) F_OR(i, 0, e, 1)
@@ -87,7 +86,7 @@ template<class A, size_t S> void read(array<A, S>& x) {
   EACH(a, x)
     read(a);
 }
- 
+
 template<typename T> inline T max(const T& a, const T& b, const T& c) { return std::max(std::max(a, b), c); }
 template<typename T> inline T max(const T& a, const T& b, const T& c, const T& d) { return std::max(max(a, b, c), d); }
 template<typename T> inline T max(const T& a, const T& b, const T& c, const T& d, const T& e) { return std::max(max(a, b, c, d), e); }
@@ -104,7 +103,7 @@ template<typename T> inline T min(const T& a, const T& b, const T& c, const T& d
 template<typename T> inline T min(const T& a, const T& b, const T& c, const T& d, const T& e, const T& f, const T& g, const T& h) { return std::min(min(a, b, c, d, e, f, g), h); }
 template<typename T> inline T min(const T& a, const T& b, const T& c, const T& d, const T& e, const T& f, const T& g, const T& h, const T& i) { return std::min(min(a, b, c, d, e, f, g, h), i); }
 template<typename T> inline T min(const T& a, const T& b, const T& c, const T& d, const T& e, const T& f, const T& g, const T& h, const T& i, const T& j) { return std::min(min(a, b, c, d, e, f, g, h, i), j); }
- 
+
 int sumof(ll n) {
   int ans = 0;
   while(n > 0) {
@@ -200,51 +199,7 @@ template<class H, class... T> void DBG(H h, T... t) {
 #else
 #define dbg(...) 0
 #endif
-
-void print(vt<int> y) {
-	EACH(t, y) {
-		write(t, " ");
-	}
-	print("");
-}
-void print(vt<char> y) {
-	EACH(t, y) {
-		write(t, " ");
-	}
-	print("");
-}	
-void print(vt<string> y) {
-	EACH(t, y) {
-		write(t, " ");
-	}
-	print("");
-}
-void print(vt<ll> y) {
-	EACH(t, y) {
-		write(t, " ");
-	}
-	print("");
-}	
-void write(vt<int> y) {
-	EACH(t, y) {
-		write(t, " ");
-	}
-}
-void write(vt<ll> y) {
-	EACH(t, y) {
-		write(t, " ");
-	}
-}
-void write(vt<string> y) {
-	EACH(t, y) {
-		write(t, " ");
-	}
-}
-void write(vt<char> y) {
-	EACH(t, y) {
-		write(t, " ");
-	}
-}		 
+ 
 template<class T> void offset(ll o, T& x) {
   x+=o;
 }
@@ -273,15 +228,15 @@ template<class T, class U> void vti(vt<T> &v, U x, size_t n, size_t m...) {
  
 const int d4i[4]={-1, 0, 1, 0}, d4j[4]={0, 1, 0, -1};
 const int d8i[8]={-1, -1, 0, 1, 1, 1, 0, -1}, d8j[8]={0, 1, 1, 1, 0, -1, -1, -1}; 
- 
+
 clock_t time_p = clock();
- 
+
 void Time_taken()
 {
   time_p = clock() - time_p;
   cerr << "Time Taken : " << (float)(time_p) / CLOCKS_PER_SEC << "\n";
 }
- 
+
 void Solve() {
 	int x;
 	cin >> x;
@@ -309,10 +264,17 @@ void Solve() {
 	srtr(big);
 	print("YES");
 	print(small.size());
-	print(small);
+	EACH(t, small) {
+		write(t, " ");
+	}
+	print("");
 	print(big.size());
-	print(big);
-					 												 
+	EACH(t, big) {
+		write(t, " ");
+	}
+	
+		
+			 												 
 }   
           
 int main() {
