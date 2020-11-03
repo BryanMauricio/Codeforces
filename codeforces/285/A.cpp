@@ -200,7 +200,51 @@ template<class H, class... T> void DBG(H h, T... t) {
 #else
 #define dbg(...) 0
 #endif
- 
+
+void print(vt<int> y) {
+	EACH(t, y) {
+		write(t, " ");
+	}
+	print("");
+}
+void print(vt<char> y) {
+	EACH(t, y) {
+		write(t, " ");
+	}
+	print("");
+}	
+void print(vt<string> y) {
+	EACH(t, y) {
+		write(t, " ");
+	}
+	print("");
+}
+void print(vt<ll> y) {
+	EACH(t, y) {
+		write(t, " ");
+	}
+	print("");
+}	
+void write(vt<int> y) {
+	EACH(t, y) {
+		write(t, " ");
+	}
+}
+void write(vt<ll> y) {
+	EACH(t, y) {
+		write(t, " ");
+	}
+}
+void write(vt<string> y) {
+	EACH(t, y) {
+		write(t, " ");
+	}
+}
+void write(vt<char> y) {
+	EACH(t, y) {
+		write(t, " ");
+	}
+}		 
 template<class T> void offset(ll o, T& x) {
   x+=o;
 }
@@ -248,7 +292,7 @@ void Solve() {
 	}
 	for(int i = 1;i<=k;i++) {
 		write(i, " ");
-	}							 												 
+	}				 												 
 }   
           
 int main() {
