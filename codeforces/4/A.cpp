@@ -5,7 +5,7 @@
 #include <bits/stdc++.h>
 using namespace std;
  
-#define ll int64_t
+#define ll long long
 #define ld long double
 #define ar array
  
@@ -28,7 +28,7 @@ using namespace std;
 #define eras(y, k) y.erase(y.begin() + k)
 #define mp make_pair
  
-#define F_OR(i, a, b, s) for (int i=(a); (s)>0?i<(b):i>=(b); i+=(s))
+#define F_OR(i, a, b, s) for (int i=(a); (s)>0?i<(b):i>(b); i+=(s))
 #define F_OR1(e) F_OR(i, 0, e, 1)
 #define F_OR2(i, e) F_OR(i, 0, e, 1)
 #define F_OR3(i, b, e) F_OR(i, b, e, 1)
@@ -229,13 +229,21 @@ template<class T, class U> void vti(vt<T> &v, U x, size_t n, size_t m...) {
  
 const int d4i[4]={-1, 0, 1, 0}, d4j[4]={0, 1, 0, -1};
 const int d8i[8]={-1, -1, 0, 1, 1, 1, 0, -1}, d8j[8]={0, 1, 1, 1, 0, -1, -1, -1}; 
-    
-void Solve() {  	
-	int a;
-	cin >> a;
-	print(a % 2 == 0 && a > 2 ? "YES":"NO");		
+ 
+clock_t time_p = clock();
+ 
+void Time_taken()
+{
+  time_p = clock() - time_p;
+  cerr << "Time Taken : " << (float)(time_p) / CLOCKS_PER_SEC << "\n";
 }
-      
+  
+void Solve() {
+	int x;
+	cin >> x;
+	print(x % 2 == 0 && x > 2?"YES":"NO");																									 
+}   
+          
 int main() {
  
   ios;
@@ -246,4 +254,6 @@ int main() {
     //write("Case #", i + 1, ": ");
     Solve();
   }
+  print("");
+  Time_taken();
 }
