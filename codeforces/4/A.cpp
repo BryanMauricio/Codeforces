@@ -237,11 +237,11 @@ void Time_taken()
   time_p = clock() - time_p;
   cerr << "Time Taken : " << (float)(time_p) / CLOCKS_PER_SEC << "\n";
 }
-  
+ 
 void Solve() {
 	int x;
 	cin >> x;
-	print(x % 2 == 0 && x > 2 ? "YES":"NO");																									 
+	write(x % 2 == 0 && x > 2 ? "YES":"NO");				 												 
 }   
           
 int main() {
@@ -249,7 +249,7 @@ int main() {
   ios;
  
   int t = 1; 
- 	//read(t);
+  //read(t);
   for(int i = 0;i<t;i++) {
     //write("Case #", i + 1, ": ");
     Solve();
