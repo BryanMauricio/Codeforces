@@ -177,7 +177,7 @@ template<class H, class... T> void write(const H& h, const T&... t) {
   write(t...);
 }
 void print() {
-  write("\n");
+  write('\n');
 }
 template<class H, class... T> void print(const H& h, const T&... t) {
   write(h);
@@ -237,25 +237,25 @@ void Time_taken()
   time_p = clock() - time_p;
   cerr << "Time Taken : " << (float)(time_p) / CLOCKS_PER_SEC << "\n";
 }
- 
-void Solve() {
+
+void Solve() {     				
 	int x;
 	cin >> x;
 	while(x--) {
 		write(1, " ");
 	}
-	print("");				 												 
-}   
-          
-int main() {
+	cout << '\n';									
+}
  
+int main() {
   ios;
  
   int t = 1; 
-  read(t);
+ 	read(t);
   for(int i = 0;i<t;i++) {
     //write("Case #", i + 1, ": ");
     Solve();
-  }
+  }        
+  print("");
   Time_taken();
 }
