@@ -177,7 +177,7 @@ template<class H, class... T> void write(const H& h, const T&... t) {
   write(t...);
 }
 void print() {
-  write('\n');
+  write("\n");
 }
 template<class H, class... T> void print(const H& h, const T&... t) {
   write(h);
@@ -239,13 +239,15 @@ void Time_taken()
 }
 
 void Solve() {     				
-	int x;
-	cin >> x;
-	while(x--) {
+	int a;
+	cin >> a;
+	for(int i = 0;i<a;i++) {
 		write(1, " ");
 	}
-	print("");									
+	print("");	
+		
 }
+			
  
 int main() {
   ios;
@@ -255,7 +257,7 @@ int main() {
   for(int i = 0;i<t;i++) {
     //write("Case #", i + 1, ": ");
     Solve();
-  }        
+  }
   print("");
   Time_taken();
 }
