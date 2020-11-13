@@ -22,7 +22,6 @@ using namespace std;
 #define lcm(a, b)  (a * b) / ( __gcd(a, b ) )
 #define gcd(a,b) __gcd(a,b)
 #define mod 1000000007
-
 #define srt(y) sort(all(y))
 #define srtr(y) sort(allr(y))
 #define uniq(y) y.erase(unique(all(y)), y.end())
