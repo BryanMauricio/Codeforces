@@ -230,17 +230,28 @@ template<class T, class U> void vti(vt<T> &v, U x, size_t n, size_t m...) {
 const int d4i[4]={-1, 0, 1, 0}, d4j[4]={0, 1, 0, -1};
 const int d8i[8]={-1, -1, 0, 1, 1, 1, 0, -1}, d8j[8]={0, 1, 1, 1, 0, -1, -1, -1}; 
  
+clock_t time_p = clock();
+ 
+void Time_taken()
+{
+  time_p = clock() - time_p;
+  cerr << "Time Taken : " << (float)(time_p) / CLOCKS_PER_SEC << "\n";
+}
  
 void Solve() {
-  int x;
-  cin >> x;
-  print(x);
-  int y = 1;
-  while(x--) {
-    write(y, " ");
-    y++;
-  }
-  print("");
+	int x;
+	cin >> x;
+	int y = 1;
+	print(x);
+	while(x--) {
+		write(y, " ");
+		y++;
+	}
+	print("");		
+
+		
+		
+				 
 }   
           
 int main() {
@@ -253,4 +264,5 @@ int main() {
     //write("Case #", i + 1, ": ");
     Solve();
   }
+  Time_taken();
 }

@@ -923,6 +923,23 @@
     ],
     "timestamp": "Dec/31/2020 06:08"
   },
+  "CF98477338": {
+    "contest_id": 1447,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\1447\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Add Candies",
+    "problem_url": "https://codeforces.com/contest/1447/problem/A",
+    "submission_id": "CF98477338",
+    "submission_url": "https://codeforces.com/contest/1447/submission/98477338",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Nov/15/2020 04:56"
+  },
   "CF98589287": {
     "contest_id": 462,
     "language": "GNU C++17",
