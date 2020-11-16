@@ -923,6 +923,23 @@
     ],
     "timestamp": "Dec/31/2020 06:08"
   },
+  "CF98589287": {
+    "contest_id": 462,
+    "language": "GNU C++17",
+    "path": "codeforces\\462\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Appleman and Easy Task",
+    "problem_url": "https://codeforces.com/contest/462/problem/A",
+    "submission_id": "CF98589287",
+    "submission_url": "https://codeforces.com/contest/462/submission/98589287",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "Nov/16/2020 07:31"
+  },
   "CF98620532": {
     "contest_id": 1150,
     "language": "GNU C++17",
