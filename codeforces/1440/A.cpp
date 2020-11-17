@@ -1,4 +1,3 @@
-
 /*                                              +---------------------+
                                                 | BRYAN MAURICIO 2006 |
                                                 +---------------------+
@@ -230,33 +229,46 @@ template<class T, class U> void vti(vt<T> &v, U x, size_t n, size_t m...) {
  
 const int d4i[4]={-1, 0, 1, 0}, d4j[4]={0, 1, 0, -1};
 const int d8i[8]={-1, -1, 0, 1, 1, 1, 0, -1}, d8j[8]={0, 1, 1, 1, 0, -1, -1, -1}; 
-
-void Solve() {
-  int a,b,c,d;
-  cin >> a >> b >> c >> d;
-  string s;
-  cin >> s;
-  int ans = 0 ;
-  for(int i = 0;i<a;i++) {
-    if(s[i] == '1') {
-      ans+=min(b + d, c);
-    }
-    else {
-      ans+=min(c + d, b);
-    }
-  }
-  print(ans);
-
-}   
-          
+ 
+clock_t time_p = clock();
+ 
+void Time_taken()
+{
+  time_p = clock() - time_p;
+  cerr << "Time Taken : " << (float)(time_p) / CLOCKS_PER_SEC << "\n";
+}
+ 
+void Solve() {	
+	int a,b,c,d;
+	cin >> a >> b >> c >> d;
+	// d = cooins to pay b = 0 c = 1;
+	string s;
+	cin >> s;
+	int first= count(all(s) ,'1');
+	int sec = count(all(s), '0');	
+	int x = (b*a) + (d * first);
+	int y = (c * a) + (d *sec); 
+	int ans = 0;
+	for(int i = 0;i<a;i++) {
+		if(s[i] == '0')  {
+			ans+=b;
+		}
+		else {
+			ans+=c;
+		}
+	}
+	print(min(ans, x, y));					
+}	
+         
 int main() {
  
   ios;
  
   int t = 1; 
-  read(t);
+ read(t);
   for(int i = 0;i<t;i++) {
-    //write("Case #", i + 1, ": ");
+   // write("Case #", i + 1, ": ");
     Solve();
   }
+  Time_taken();
 }
