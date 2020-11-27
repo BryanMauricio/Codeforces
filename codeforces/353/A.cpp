@@ -18,6 +18,7 @@ using namespace std;
 #define sz(x) (int)(x).size()
 #define mx(a) *max_element(all(a))
 #define mn(a) *min_element(all(a))
+
 #define pi 3.14159265358979323846
 #define lcm(a, b)  (a * b) / ( __gcd(a, b ) )
 #define gcd(a,b) __gcd(a,b)
@@ -245,8 +246,6 @@ void Solve() {
 	}
 	if(a1 % 2 == 0 && a2 % 2 == 0) {
 		print(0);
-
-
 	}
 	else {
 		bool ok = false;
