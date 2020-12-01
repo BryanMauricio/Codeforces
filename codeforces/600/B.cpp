@@ -242,7 +242,9 @@ void Solve() {
 		cin >> x;
 		auto it = upper_bound(all(y), x);
 		write(it - y.begin(), " ");
-	}			
+	} 
+
+			
 }	
       
 int main() {
