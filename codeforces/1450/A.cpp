@@ -5,7 +5,7 @@
 #include <bits/stdc++.h>
 using namespace std;
  
-#define ll int64_t
+#define ll long long
 #define ld long double
 #define ar array
  
@@ -28,7 +28,7 @@ using namespace std;
 #define eras(y, k) y.erase(y.begin() + k)
 #define mp make_pair
  
-#define F_OR(i, a, b, s) for (int i=(a); (s)>0?i<(b):i>=(b); i+=(s))
+#define F_OR(i, a, b, s) for (int i=(a); (s)>0?i<(b):i>(b); i+=(s))
 #define F_OR1(e) F_OR(i, 0, e, 1)
 #define F_OR2(i, e) F_OR(i, 0, e, 1)
 #define F_OR3(i, b, e) F_OR(i, b, e, 1)
@@ -229,20 +229,21 @@ template<class T, class U> void vti(vt<T> &v, U x, size_t n, size_t m...) {
  
 const int d4i[4]={-1, 0, 1, 0}, d4j[4]={0, 1, 0, -1};
 const int d8i[8]={-1, -1, 0, 1, 1, 1, 0, -1}, d8j[8]={0, 1, 1, 1, 0, -1, -1, -1}; 
-    
+ 
 void Solve() {
-	string a,b;
-	cin >> a >> b;
-	srt(b);
-	print(b);		
-}
-      
+  int a;
+  cin >> a;
+  string s;
+  cin >> s;
+  srt(s);
+  print(s); 
+}        
 int main() {
  
   ios;
  
   int t = 1; 
- 	read(t);
+  read(t);
   for(int i = 0;i<t;i++) {
     //write("Case #", i + 1, ": ");
     Solve();
