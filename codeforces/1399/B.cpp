@@ -268,7 +268,7 @@ int main() {
 
   */
   int t = 1; 
-  read(t);
+ 	read(t);
   for(int i = 0;i<t;i++) {
     //write("Case #", i + 1, ": ");
     Solve();
