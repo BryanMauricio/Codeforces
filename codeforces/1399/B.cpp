@@ -251,22 +251,15 @@ void Solve() {
 		x[i] -= k;
 		ans += abs(y[i] - mn(y)) + abs(x[i] - mn(x));
 	}
-	print(ans);		
+	print(ans);
+	
 }
       
 int main() {
   ios_base::sync_with_stdio(false);
   cin.tie(0);
   cout.tie(0);
-  /*
-           +----------+
-           | REMEMBER |
-           +----------+ 
-
-     * int overflow, array bounds
-     * special cases (n=1) ? 
-
-  */
+ 
   int t = 1; 
  	read(t);
   for(int i = 0;i<t;i++) {
