@@ -333,7 +333,7 @@ void Solve() {
 				if(y[i][j] == y[i][j-1]) {
 					if(i - 1 >= 0) {
 						if(y[i][j] == y[i - 1][j] || y[i - 1][j - 1] == y[i][j]) {
-							print("YES");
+							print("YES", 4, 1);
 							return;
 						}
 					}
