@@ -1,4 +1,21 @@
 {
+  "CF101194930": {
+    "contest_id": 287,
+    "language": "GNU C++17",
+    "path": "codeforces\\287\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "IQ Test",
+    "problem_url": "https://codeforces.com/contest/287/problem/A",
+    "submission_id": "CF101194930",
+    "submission_url": "https://codeforces.com/contest/287/submission/101194930",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Dec/14/2020 06:45"
+  },
   "CF101371749": {
     "contest_id": 1462,
     "language": "GNU C++17",
