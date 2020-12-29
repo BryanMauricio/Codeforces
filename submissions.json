@@ -1,4 +1,20 @@
 {
+  "CF102649835": {
+    "contest_id": 144,
+    "language": "GNU C++17",
+    "path": "codeforces\\144\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Arrival of the General",
+    "problem_url": "https://codeforces.com/contest/144/problem/A",
+    "submission_id": "CF102649835",
+    "submission_url": "https://codeforces.com/contest/144/submission/102649835",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Dec/28/2020 14:02"
+  },
   "CF102650324": {
     "contest_id": 268,
     "language": "GNU C++17",
