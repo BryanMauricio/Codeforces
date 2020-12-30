@@ -258,17 +258,18 @@ void Solve() {
   read(y);
   reverse(all(y));
   set<int> s;
-  int x[a];
+  int k[a];
   FOR(a) {
     s.insert(y[i]);
-    x[i] = s.size();
+    k[i] = s.size();
   }
-  FOR(b) {
-    int l;
-    cin >> l;
-    l = a - l;
-    print(x[l]);
+  for(int i = 0;i<b;i++) {
+    int x;
+    cin >> x;
+    x = a - x;
+    print(k[x]);
   }
+
 }
       
 int main() {
