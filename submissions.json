@@ -1,4 +1,25 @@
 {
+  "CF102925789": {
+    "contest_id": 202,
+    "language": "GNU C++17",
+    "path": "codeforces\\202\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "LLPS",
+    "problem_url": "https://codeforces.com/contest/202/problem/A",
+    "submission_id": "CF102925789",
+    "submission_url": "https://codeforces.com/contest/202/submission/102925789",
+    "tags": [
+      "binary search",
+      "bitmasks",
+      "brute force",
+      "greedy",
+      "implementation",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Dec/31/2020 05:27"
+  },
   "CF102928155": {
     "contest_id": 1293,
     "language": "GNU C++17",
